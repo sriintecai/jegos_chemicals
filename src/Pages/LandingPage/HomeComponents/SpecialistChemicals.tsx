@@ -1,4 +1,4 @@
-import { Button, Image, Link } from "@nextui-org/react";
+import { Image, Link } from "@nextui-org/react";
 import { useNavigate } from "react-router-dom";
 export default function SpecialistChemicals() {
   const navigate = useNavigate();
