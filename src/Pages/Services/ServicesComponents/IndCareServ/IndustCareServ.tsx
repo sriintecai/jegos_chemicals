@@ -25,19 +25,19 @@ export default function IndustCareServ() {
                     </div>
                     <hr className=" border-dashed border-[#D0DFFF]" />
                     <div className="pb-4">
-                      {item?.servpoints?.map((item: servpoints) => (
-                        <>
+                      {item?.servpoints?.map((item: servpoints,index:number) => (
+                        <div key={index}>
                           {item?.isDisplayable === true && (
                             <li className="lg:text-lg text-[14px]">
                               {item.label}
                             </li>
                           )}
-                        </>
+                        </div>
                       ))}
                     </div>
                     <Link
                       className="text-[#3657C3] cursor-pointer"
-                      onClick={onOpen}
+                      onPress={onOpen}
                     >
                       View details
                     </Link>

@@ -22,8 +22,8 @@ export default function IndustrialCarePro() {
       <div className="lg:flex pt-5 lg:pt-10">
         {/* Scroll height */}
         <div className="flex lg:overflow-y-scroll lg:h-[90dvh] gap-6 flex-col border-r">
-          {spclche.map((item: SpclChe) => (
-            <div className="w-full">
+          {spclche.map((item: SpclChe,index:number) => (
+            <div key={index} className="w-full">
               <div className="lg:flex lg:w-full w-11/12 mx-auto md:flex justify-center items-center ">
                 <Image src={item?.img} isZoomed className="lg:w-72 lg:h-60 w-96 "/>
                 <div className="lg:space-y-4 space-y-2 lg:px-8">
@@ -33,17 +33,17 @@ export default function IndustrialCarePro() {
                   </div>
                   <hr className=" border-dashed border-[#D0DFFF]" />
                   <div className="pb-4">
-                    {item?.points?.map((item: points) => (
-                      <>
+                    {item?.points?.map((item: points, index:number) => (
+                      <div key={index}>
                         {item?.isDisplayable === true && (
                           <li className="lg:text-lg text-[14px]"> {item.label} </li>
                         )}
-                      </>
+                      </div>
                     ))}
                   </div>
                   <Link
                     className="text-[#3657C3] cursor-pointer"
-                    onClick={onOpen1}
+                    onPress={onOpen1}
                   >
                     View details
                   </Link>
@@ -62,7 +62,7 @@ export default function IndustrialCarePro() {
               size={40}
               className="p-2 border-2 border-[#D8D9E0] bg-[#EFF0F3] rounded-lg"
             />
-            <Link className="cursor-pointer flex flex-col" onClick={onOpen2}>
+            <Link className="cursor-pointer flex flex-col" onPress={onOpen2}>
               <h1 className="text-lg text-[#62636C] font-semibold">
                 Contact Number
               </h1>

@@ -14,7 +14,7 @@ export default function Why() {
           manufacture and service we deliver is of superior quality, giving you
           peace of mind and consistent results.
         </p>
-        <div className="lg:flex items-center md:flex lg:space-x-0 space-y-10 justify-around w-full">
+        <div className=" flex flex-row items-center md:flex lg:space-x-0 justify-around w-full">
           <div className="flex lg:w-4/6 gap-3  lg:text-xl text-[14px] flex-col items-center justify-center">
             <Image src={`WHY COMPONENTS/ACHI.svg`} radius="none" />
             <p className="text-center font-semibold ">

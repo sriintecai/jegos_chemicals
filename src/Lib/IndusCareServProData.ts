@@ -120,7 +120,7 @@ export const services: Services[] = [
     ],
   },
   {
-    id: 1,
+    id: 7,
     img: `/SERVS/1.svg`,
     title: "Corrosion Control and Rust Prevention",
     price: "₹2,000",
@@ -138,7 +138,7 @@ export const services: Services[] = [
   },
 
   {
-    id: 2,
+    id: 8,
     img: `/SERVS/2.svg`,
     title: "Corrosion Control and Rust Prevention",
     price: "₹2,000",
@@ -156,7 +156,7 @@ export const services: Services[] = [
   },
 
   {
-    id: 3,
+    id: 9,
     img: `/SERVS/3.svg`,
     title: "Corrosion Control and Rust Prevention",
     price: "₹2,000",
@@ -174,7 +174,7 @@ export const services: Services[] = [
   },
 
   {
-    id: 4,
+    id: 10,
     img: `/SERVS/4.svg`,
     title: "Corrosion Control and Rust Prevention",
     price: "₹2,000",
@@ -192,7 +192,7 @@ export const services: Services[] = [
   },
 
   {
-    id: 5,
+    id: 11,
     img: `/SERVS/5.svg`,
     title: "Corrosion Control and Rust Prevention",
     price: "₹2,000",
@@ -210,7 +210,7 @@ export const services: Services[] = [
   },
 
   {
-    id: 6,
+    id: 12,
     img: `/SERVS/6.svg`,
     title: "Corrosion Control and Rust Prevention",
     price: "₹2,000",
