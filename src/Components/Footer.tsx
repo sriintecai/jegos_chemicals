@@ -1,6 +1,5 @@
 import { MdOutlineCall } from "react-icons/md";
 import { CiLocationOn, CiMail } from "react-icons/ci";
-import { Image } from "@nextui-org/react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -12,20 +11,29 @@ export default function Footer() {
         <div className="bg-[#1E1F24] 2xl:w-10/12 lg:w-10/12 py-8 text-white lg:block hidden">
           <div className="flex justify-between">
             <div>
-              <Image src={"/LOGOS/LOGO_BLACK.svg"} />
+              {/* <Image src={"/LOGOS/LOGO_BLACK.svg"} /> */}
+              <h1 className="font-semibold text-lg">Jegos Eco Chemicals</h1>
             </div>
             <div className="flex flex-col lg:text-2xl justify-between ">
               <div>
-                <Link to="/products" className="cursor-pointer">Products</Link>
+                <Link to="/products" className="cursor-pointer">
+                  Products
+                </Link>
               </div>
               <div>
-              <Link to="/services" className="cursor-pointer">Services</Link>
+                <Link to="/services" className="cursor-pointer">
+                  Services
+                </Link>
               </div>
               <div>
-              <Link to="/" className="cursor-pointer">About Us</Link>
+                <Link to="/" className="cursor-pointer">
+                  About Us
+                </Link>
               </div>
               <div>
-              <Link to="/" className="cursor-pointer">Contact Us</Link>
+                <Link to="/" className="cursor-pointer">
+                  Contact Us
+                </Link>
               </div>
             </div>
             <div className="flex flex-col space-y-6 items-start">
@@ -48,11 +56,7 @@ export default function Footer() {
                   size={50}
                   className="lg:p-3 md:p-2 p-2 rounded-md border "
                 />
-                <h1>
-                  +91 98945 84160
-                  <br />
-                  +91 98501 09847
-                </h1>
+                <h1>+91 87540 06902</h1>
               </div>
               <div className="flex justify-center items-center gap-5">
                 <CiMail
@@ -61,7 +65,9 @@ export default function Footer() {
                   size={50}
                   className="lg:p-3 md:p-2 p-2 rounded-md border "
                 />
-                <Link to={``} className="cursor-pointer">jegos.chemicals@gmail.com</Link>
+                <Link to={``} className="cursor-pointer">
+                  jegoeco2019@gmail.com
+                </Link>
               </div>
             </div>
           </div>
@@ -131,13 +137,14 @@ export default function Footer() {
         </div>
       </footer> */}
 
-       {/* mobile -- 2 */}
+      {/* mobile -- 2 */}
 
-       <footer className="bg-[#1E1F24] px-5  max-w-screen p-2 py-4 w-full text-white  lg:hidden">
+      <footer className="bg-[#1E1F24] px-5  max-w-screen p-2 py-4 w-full text-white  lg:hidden">
         <div className="flex justify-center items-center flex-col space-y-6">
           <div>
             <a href="/">
-              <Image src={"/LOGOS/LOGO_BLACK.svg"} />
+              {/* <Image src={"/LOGOS/LOGO_BLACK.svg"} /> */}
+              <h1 className="font-semibold text-lg">Jegos Eco Chemicals</h1>
             </a>
           </div>
           <div className="flex">
@@ -170,17 +177,11 @@ export default function Footer() {
               </div>
               <div className="flex justify-center items-center gap-5">
                 <MdOutlineCall size={30} />
-                <h1>
-                  +91 98945 84160
-                  <br />
-                  +91 98501 09847
-                </h1>
+                <h1>+91 87540 06902</h1>
               </div>
               <div className="flex justify-center items-center gap-5">
                 <CiMail size={30} />
-                <a href="jegos.chemicals@gmail.com">
-                  jegos.chemicals@gmail.com
-                </a>
+                <a href="jegoeco2019@gmail.com">jegoeco2019@gmail.com</a>
               </div>
             </div>
           </div>

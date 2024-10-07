@@ -9,7 +9,6 @@ import {
   NavbarItem,
   Link,
   Input,
-  Image,
   Button,
 } from "@nextui-org/react";
 import { CiSearch } from "react-icons/ci";
@@ -38,7 +37,9 @@ export default function NavigationBAr() {
           <div className="flex space-x-10 lg:px-20">
             <NavbarBrand className="flex sm:">
               <Link color="foreground" href="/">
-                <Image className="h-50 w-50 " src={"/LOGOS/LOGO.svg"} />
+                {/* <Image className="h-50 w-50 " src={"/LOGOS/LOGO.svg"} />
+                 */}
+                <h1 className="font-semibold text-lg">Jegos Eco Chemicals</h1>
               </Link>
             </NavbarBrand>
             <NavbarItem className="hidden sm:flex">

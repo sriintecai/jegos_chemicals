@@ -35,7 +35,7 @@ export default function Scroll_Cards_TP() {
         <LuArrowLeft className="text-xl" />
       </Button>
       <div className="relative pl-5">
-        <div ref={feedbackRef} className="flex overflow-x-scroll lg:no-scrollbar gap-6 flex-row w-full overflow-hidden">
+        <div ref={feedbackRef} className="flex max-w-[175vh] overflow-x-scroll lg:no-scrollbar gap-6 flex-row w-full overflow-hidden">
           {spclche?.map((item: SpclChe, index: number) => (
             <div key={index} className="min-w-fit border-1 rounded-xl bg-white">
               <Image className="w-[35vh] h-[35vh]" src={item?.img} />

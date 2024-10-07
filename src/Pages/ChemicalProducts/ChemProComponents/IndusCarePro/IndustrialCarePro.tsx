@@ -66,7 +66,7 @@ export default function IndustrialCarePro() {
               <h1 className="text-lg text-[#62636C] font-semibold">
                 Contact Number
               </h1>
-              <h1 className="text-[#62636C]">+91 12345 67890</h1>
+              <h1 className="text-[#62636C]">8754006902</h1>
             </Link>
           </div>
         </div>
