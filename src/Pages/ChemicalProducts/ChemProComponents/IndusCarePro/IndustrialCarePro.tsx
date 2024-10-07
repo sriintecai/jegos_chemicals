@@ -24,7 +24,7 @@ export default function IndustrialCarePro() {
         <div className="flex lg:overflow-y-scroll lg:h-[90dvh] gap-6 flex-col border-r">
           {spclche.map((item: SpclChe,index:number) => (
             <div key={index} className="w-full">
-              <div className="lg:flex lg:w-full w-11/12 mx-auto md:flex justify-center items-center ">
+              <div className="lg:flex lg:w-full pl-10 md:flex justify-center items-center ">
                 <Image src={item?.img} isZoomed className="lg:w-72 lg:h-60 w-96 "/>
                 <div className="lg:space-y-4 space-y-2 lg:px-8">
                   <div className="space-y-2 ">
@@ -36,7 +36,7 @@ export default function IndustrialCarePro() {
                     {item?.points?.map((item: points, index:number) => (
                       <div key={index}>
                         {item?.isDisplayable === true && (
-                          <li className="lg:text-lg text-[14px]"> {item.label} </li>
+                          <li className="lg:text-lg text-[14px] "> {item.label} </li>
                         )}
                       </div>
                     ))}
