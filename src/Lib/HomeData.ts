@@ -21,7 +21,7 @@ export const spclche: SpclChe[] = [
     points: [
       {
         label:
-          "SS BRITNER is recommended to clean stainless steel equipments such as storage tanks, pipe lines, vessels, inter-mix, conveyor systems, dye & moulds etc.",
+          "SS BRITNER is recommended to clean stainless steel equipments such as storage tanks.",
         isDisplayable: true,
       },
       {
@@ -39,12 +39,12 @@ export const spclche: SpclChe[] = [
 
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          "Anti-microbial Hand Cleaner cum Conditioner. Promotes healthy hands. Also available in gel form.",
         isDisplayable: true,
       },
       {
-        label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+        label: "Removes dirt, oil, carbon and other impurities.",
         isDisplayable: true,
       },
     ],
@@ -56,12 +56,13 @@ export const spclche: SpclChe[] = [
     price: "₹2,000",
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          " De Greaser is used to clean epoxy floorings, vinyl floors, concrete floors etc.",
         isDisplayable: true,
       },
       {
         label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+          "Removes hard to clean contaminants such as oil, grease, dirt, carbon etc.",
         isDisplayable: true,
       },
     ],
@@ -73,7 +74,8 @@ export const spclche: SpclChe[] = [
     price: "₹2,000",
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          " Food and animal feed: As a preservative, flavor enhancer, and additive to improve the nutritional.",
         isDisplayable: true,
       },
       {
@@ -90,12 +92,12 @@ export const spclche: SpclChe[] = [
     price: "₹2,000",
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          " Easy to clean and descale stainless steel vessels. Detergent based.",
         isDisplayable: true,
       },
       {
-        label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+        label: "Dilutes freely with water, Harmless and biodegradable.",
         isDisplayable: true,
       },
     ],
@@ -107,12 +109,13 @@ export const spclche: SpclChe[] = [
     price: "₹2,000",
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          "Free from caustic and other hazardous ingredients, Less foaming liquid helps save water.",
         isDisplayable: true,
       },
       {
         label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+          "Used to clean floors such as granite, marble, glazed tiles etc.",
         isDisplayable: true,
       },
     ],
@@ -125,12 +128,12 @@ export const spclche: SpclChe[] = [
 
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          "Reduces the risk of bacteria and virus transmission to other people",
         isDisplayable: true,
       },
       {
-        label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+        label: "Helps minimise the impact of illness and absenteeism",
         isDisplayable: true,
       },
     ],
@@ -142,12 +145,13 @@ export const spclche: SpclChe[] = [
     price: "₹2,000",
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          "Quickly removes water contaminants, stains, dirt, lime build-up.",
         isDisplayable: true,
       },
       {
         label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+          "Versatile, con be used to dean wash basin, urinals, commodes and bathroom Controls foul smell.",
         isDisplayable: true,
       },
     ],
@@ -159,12 +163,12 @@ export const spclche: SpclChe[] = [
     price: "₹2,000",
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label: "Free from ammonia and other harmful ingredients, Non-Soapy.",
         isDisplayable: true,
       },
       {
         label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+          "Recommended to dean gloss, computer cabinet, TV panel, fridge, Washing m/c etc",
         isDisplayable: true,
       },
     ],
@@ -176,12 +180,13 @@ export const spclche: SpclChe[] = [
     price: "₹2,000",
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          "Masking unpleasant odors: Room fresheners can mask or remove bad smells",
         isDisplayable: true,
       },
       {
         label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+          "Creating a pleasant ambiance: Room fresheners can create a welcoming atmosphere.",
         isDisplayable: true,
       },
     ],
@@ -193,12 +198,12 @@ export const spclche: SpclChe[] = [
     price: "₹2,000",
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          "Quickly removes water contaminants, dirt and other hard to clean substances.",
         isDisplayable: true,
       },
       {
-        label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+        label: "Versatile, can also be used to clean urinals and commodes.",
         isDisplayable: true,
       },
     ],
@@ -227,12 +232,13 @@ export const spclche: SpclChe[] = [
     price: "₹2,000",
     points: [
       {
-        label: " Powerful solutions for removing grime, grease",
+        label:
+          " De Greaser is used to clean epoxy floorings, vinyl floors, concrete floors etc.",
         isDisplayable: true,
       },
       {
         label:
-          "Advanced chemicals to protect your machinery and infrastructure",
+          "Removes hard to clean contaminants such as oil, grease, dirt, carbon etc.",
         isDisplayable: true,
       },
     ],

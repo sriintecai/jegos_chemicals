@@ -21,7 +21,7 @@ export default function IndustrialCarePro() {
       <h1 className="lg:text-2xl text-[20px] lg:text-start text-center font-bold">Industrial Care Products</h1>
       <div className="lg:flex pt-5 lg:pt-10">
         {/* Scroll height */}
-        <div className="flex lg:overflow-y-scroll lg:h-[90dvh] gap-6 flex-col border-r">
+        <div className="flex lg:overflow-y-scroll lg:h-[90dvh] gap-6 flex-col border-r w-10/12">
           {spclche.map((item: SpclChe,index:number) => (
             <div key={index} className="w-full">
               <div className="lg:flex lg:w-full pl-10 md:flex justify-center items-center ">
